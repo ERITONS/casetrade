@@ -1,4 +1,4 @@
-﻿using CreditSuisse.TradeCategorizarion.Factory;
+﻿using CreditSuisse.TradeCategorizarion.Business;
 
 namespace CreditSuisse.TradeCategorizarion.Domain
 {

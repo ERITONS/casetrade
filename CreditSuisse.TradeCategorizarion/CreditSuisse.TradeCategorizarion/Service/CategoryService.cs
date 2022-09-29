@@ -1,10 +1,5 @@
 ﻿using CreditSuisse.TradeCategorizarion.Domain;
-using CreditSuisse.TradeCategorizarion.Factory;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using CreditSuisse.TradeCategorizarion.Business;
 
 namespace CreditSuisse.TradeCategorizarion.Service
 {
