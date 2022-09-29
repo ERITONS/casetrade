@@ -44,7 +44,6 @@ namespace CreditSuisse.TradeCategorizarion.Service
                     }
             
                 }
-               
             }
 
             return tradeCategories;

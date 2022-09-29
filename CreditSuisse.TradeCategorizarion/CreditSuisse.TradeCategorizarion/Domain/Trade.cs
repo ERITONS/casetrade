@@ -1,9 +1,4 @@
 ﻿using CreditSuisse.TradeCategorizarion.Factory;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace CreditSuisse.TradeCategorizarion.Domain
 {
@@ -35,9 +30,6 @@ namespace CreditSuisse.TradeCategorizarion.Domain
             return category.Identifies(this);
         }
 
-
-        
-
         public List<ITrade> GenerateTradeList()
         {
             List<ITrade> trades = new()
@@ -48,8 +40,7 @@ namespace CreditSuisse.TradeCategorizarion.Domain
                 new Trade(3000000, "Public", new DateTime(2023, 10, 26),new DateTime(2020, 12, 11))
             };
 
-            return trades;
-           
+            return trades;  
         }
     }
 }

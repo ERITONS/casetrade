@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Eriton\\source\\repos\\CreditSuisse.TradeCategorizarion\\CreditSuisse.TradeCategorizarion\\CreditSuisse.TradeCategorizarion.csproj": {}
+    "C:\\Users\\Eriton\\source\\repos\\casetrade\\CreditSuisse.TradeCategorizarion\\CreditSuisse.TradeCategorizarion\\CreditSuisse.TradeCategorizarion.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Eriton\\source\\repos\\CreditSuisse.TradeCategorizarion\\CreditSuisse.TradeCategorizarion\\CreditSuisse.TradeCategorizarion.csproj": {
+    "C:\\Users\\Eriton\\source\\repos\\casetrade\\CreditSuisse.TradeCategorizarion\\CreditSuisse.TradeCategorizarion\\CreditSuisse.TradeCategorizarion.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Eriton\\source\\repos\\CreditSuisse.TradeCategorizarion\\CreditSuisse.TradeCategorizarion\\CreditSuisse.TradeCategorizarion.csproj",
+        "projectUniqueName": "C:\\Users\\Eriton\\source\\repos\\casetrade\\CreditSuisse.TradeCategorizarion\\CreditSuisse.TradeCategorizarion\\CreditSuisse.TradeCategorizarion.csproj",
         "projectName": "CreditSuisse.TradeCategorizarion",
-        "projectPath": "C:\\Users\\Eriton\\source\\repos\\CreditSuisse.TradeCategorizarion\\CreditSuisse.TradeCategorizarion\\CreditSuisse.TradeCategorizarion.csproj",
+        "projectPath": "C:\\Users\\Eriton\\source\\repos\\casetrade\\CreditSuisse.TradeCategorizarion\\CreditSuisse.TradeCategorizarion\\CreditSuisse.TradeCategorizarion.csproj",
         "packagesPath": "C:\\Users\\Eriton\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Eriton\\source\\repos\\CreditSuisse.TradeCategorizarion\\CreditSuisse.TradeCategorizarion\\obj\\",
+        "outputPath": "C:\\Users\\Eriton\\source\\repos\\casetrade\\CreditSuisse.TradeCategorizarion\\CreditSuisse.TradeCategorizarion\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Eriton\\AppData\\Roaming\\NuGet\\NuGet.Config",
