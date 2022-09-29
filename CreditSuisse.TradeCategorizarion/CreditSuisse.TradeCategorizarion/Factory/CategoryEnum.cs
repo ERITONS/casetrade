@@ -7,5 +7,5 @@ using System.Threading.Tasks;
 namespace CreditSuisse.TradeCategorizarion.Factory
 {
 
-    public enum CategoryEnum { TradeExpired, TradeMediumRisk, TradeHighRisk }
+    public enum CategoryEnum { Expired, MediumRisk, HighRisk, NotCategorized }
 }

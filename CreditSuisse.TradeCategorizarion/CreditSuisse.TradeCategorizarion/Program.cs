@@ -1,7 +1,6 @@
-﻿
+﻿//entrepoint .net 6.0 style top-level-templates
 
 using CreditSuisse.TradeCategorizarion.Domain;
-using CreditSuisse.TradeCategorizarion.Factory;
 using CreditSuisse.TradeCategorizarion.Service;
 
 Trade trade = new Trade();
@@ -18,9 +17,7 @@ var trades = trade.GenerateTradeList();
 //else
 //    Console.WriteLine("oi");
 
-
-
-
+//data for execute testes 
 var tradeCategories = new CategoryService(trades).GetCategories();
 
 foreach (var category in tradeCategories)

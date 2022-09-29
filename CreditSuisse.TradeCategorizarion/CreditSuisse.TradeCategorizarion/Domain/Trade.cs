@@ -30,9 +30,9 @@ namespace CreditSuisse.TradeCategorizarion.Domain
         { 
         }
 
-        public bool TradeCategorizarion(CategoryTrade category)
+        public bool TradeCategorizarion(Category category)
         {
-            return category.TradeCategorizarion(this);
+            return category.Identifies(this);
         }
 
 

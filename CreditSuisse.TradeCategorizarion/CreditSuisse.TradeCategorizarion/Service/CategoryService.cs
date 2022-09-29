@@ -19,29 +19,32 @@ namespace CreditSuisse.TradeCategorizarion.Service
 
         public List<string> GetCategories()
         {
-            CategoryTrade category = null;
+           
 
             List<string> tradeCategories = new List<string>();
 
-            List<CategoryTrade> categories = new List<CategoryTrade> {
-                 CategoryFactory.Create(CategoryEnum.TradeExpired),
-                CategoryFactory.Create(CategoryEnum.TradeHighRisk),
-                CategoryFactory.Create(CategoryEnum.TradeMediumRisk)
+            List<Category> categories = new List<Category> {
+                new Expired(),
+                new HighRisk(),
+                new MediumRisk(),
+                new Expired()
             };
 
+
+            //category loop: will try to categorize the trad with each tradcategory that existis on enum.
             foreach (Trade trade in trades)
             {
-                foreach (CategoryTrade r in categories)
+                foreach (Category category in categories)
                 {
-                    category = r;
-
-                    if (trade.TradeCategorizarion(r))
+                   
+                    if (category.Identifies(trade))
                     {
+                        tradeCategories.Add(category.Name);
                         break;
                     }
+            
                 }
-
-                tradeCategories.Add(category.Category);
+               
             }
 
             return tradeCategories;
